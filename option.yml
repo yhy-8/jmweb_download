@@ -1,0 +1,26 @@
+client:
+  cache: null
+  domain: []
+  impl: api
+  postman:
+    meta_data:
+      headers: null
+      impersonate: chrome110
+      proxies: {}
+    type: curl_cffi
+  retry_times: 5
+dir_rule:
+  base_dir: ./temp_downloads
+  rule: Bd_Pindextitle
+download:
+  cache: true
+  image:
+    decode: true
+    suffix: null
+  threading:
+    image: 5
+    photo: 1
+log: true
+plugins:
+  valid: log
+version: '2.1'
